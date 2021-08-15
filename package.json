@@ -1,11 +1,11 @@
 {
   "name": "ts-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript Practice",
   "main": "dist/main.js",
   "scripts": {
-    "dev": "ts-node src/main.ts",
-    "dev:watch": "ts-node-dev --respawn src/main.ts",
+    "dev": "ts-node src/class.ts",
+    "dev:watch": "ts-node-dev --respawn src/class.ts",
     "clean": "rimraf dist/*",
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
